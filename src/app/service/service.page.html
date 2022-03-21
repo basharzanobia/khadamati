@@ -1,0 +1,98 @@
+<ion-header >
+  <ion-toolbar color="secondry"> 
+    <ion-row class="n-head">
+    <ion-col size="2" >
+      <ion-buttons>  
+        <ion-menu-button></ion-menu-button>   
+      </ion-buttons>  
+    </ion-col>
+    <ion-col size="8" class="title-toolbar">
+      <ion-title>خدمات</ion-title> 
+    </ion-col>
+    <ion-col size="2">
+      <ion-icon name="arrow-forward" class="back" routerLink="/tabs/tab2" routerDirection="root"></ion-icon>
+    </ion-col>
+    </ion-row> 
+</ion-toolbar> 
+</ion-header>
+<!-- End Header  -->
+
+<!-- End Header  -->
+
+<!-- Body -->
+<ion-content >
+  <section class="product">
+       <!--  service info-->
+    <ion-card>
+      <ion-card-header>
+        <ion-icon name="home" class="p-icon"></ion-icon>
+    </ion-card-header>
+       <ion-card-content>
+
+        <ion-list lines="none">
+          <ion-lable class="best-titlle"> التنظيف المنزلي المتكامل</ion-lable>
+          <ion-item class="p-pri">
+            <ion-lable >  2222 </ion-lable>
+          </ion-item>
+          <ion-item>
+            <ion-lable class="p-note">  تشمل هذه الخدمة كافة الطوابق والمرافق </ion-lable>
+          </ion-item>
+        </ion-list>
+    </ion-card-content>
+    <!-- End service info-->
+
+    <!-- order detile -->
+   <ion-row>
+    <ion-col size="12">
+        <h2 class="procc-title"> المعلومات والتفاصيل</h2>
+            <ion-list lines="none">
+              <ion-item >
+                <ion-lable class="booking-date"> التاريخ</ion-lable>
+              </ion-item>
+              <ion-item >
+                <ion-input type="date" placeholder="01/01/2022"></ion-input>
+              </ion-item>
+              <ion-item >
+                <ion-lable class="booking-time"> ساعة البدء</ion-lable>
+              </ion-item>
+              <ion-item >
+                <ion-input type="time" placeholder="9 A.M"></ion-input>
+              </ion-item>
+              <ion-item >
+                <ion-lable class="booking-addres"> العنوان</ion-lable>
+              </ion-item>
+              <ion-item >
+                <ion-icon name="locate" class="located"></ion-icon>
+                <ion-input type="text" placeholder="ادخل العنوان / حدد موقعك الحالي"></ion-input>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="booking-notes"> ملاحظات وتوصيات </ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-input type="text" placeholder="اخبرنا  المزيد ..."></ion-input>
+              </ion-item>
+               <!-- order detile -->
+
+                <!-- order service -->
+            <ion-button  expand="block" class="book-now" routerLink="/success" routerDirection="root" >
+              احجز الان
+            </ion-button>
+
+             <!-- order service -->
+            </ion-list>
+          </ion-col>
+        </ion-row>
+  </ion-card>
+  
+           <!-- Book Detile-->
+  
+
+    
+   
+  
+  </section>
+
+  
+
+
+</ion-content>

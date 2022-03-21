@@ -1,0 +1,98 @@
+
+<ion-header >
+  <ion-toolbar color="secondry"> 
+    <ion-row class="n-head">
+    <ion-col size="2" >
+      <ion-buttons>  
+        <ion-menu-button></ion-menu-button>   
+      </ion-buttons>
+     
+    </ion-col>
+    <ion-col size="8" class="title-toolbar">
+      <ion-title>الحجوزات الملغاة</ion-title> 
+    </ion-col>
+    <ion-col size="2">
+      <ion-icon name="arrow-forward" class="back" routerLink="/tabs/tab3" routerDirection="root"></ion-icon>
+    </ion-col>
+    </ion-row> 
+</ion-toolbar> 
+</ion-header>
+<!-- End Header  -->
+
+<!-- Body -->
+
+<ion-content >
+ <!-- Processing Bar -->
+  <section>
+    <ion-grid class="sevices">
+    <ion-row>
+      <ion-col size="12" >
+        <ion-card >
+          <ion-card-content>
+            <ion-list lines="none">
+              <ion-item>
+                <ion-range min="0" max="100" step="20" snaps="true" [pinFormatter]="customFormatter" [pin]="true" color="danger" ></ion-range>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="worker-statu" slot="end" > ملغاة </ion-lable>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+
+<!-- End Processing Bar -->
+
+<!-- Service Detile -->
+
+        <ion-card >
+        <ion-card-content>
+        <ion-list lines="none">
+          <div class="title">
+            <h1> تفاصيل الحجز </h1>
+          </div>
+              <ion-item >
+                <ion-lable class="booking-titlle"> رقم الحجز</ion-lable>
+              </ion-item>
+              <ion-item no-lines>
+                <ion-lable class="booking-detiles"> #2245344 </ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="date-titlle"> تاريخ الحجز</ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="date-detiles"> 01/01/2000 </ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="adress-title"> عنوان العمل</ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="adress-detiles"> اسطنبول / تركيا</ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="adress-detiles"> عامل التوصيل  </ion-lable>
+              </ion-item>
+              <ion-item>
+                <ion-lable class="adress-detiles"> خالد</ion-lable>
+              </ion-item>
+            </ion-list>
+          <ion-row>
+
+      <!--End  Service Detile -->
+
+      <!-- Service Renew Button -->
+          <ion-col size="12">
+            <ion-button  expand="block" class="book-now" >
+              تجديد الحجز
+            </ion-button>
+          </ion-col>
+
+          <!--End  Service Renew Button -->
+        </ion-row>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+    </ion-grid>
+  </section>
+
+</ion-content>

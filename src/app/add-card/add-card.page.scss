@@ -1,0 +1,56 @@
+
+/** Header Style **/
+.ion-toolbar {
+    border: none;
+ }
+ ion-title {
+    color: white;
+}
+ 
+/** Menue Style **/
+ ion-menu-button{
+     --color:white !important;
+      color:white !important;
+      font-size: 50px;
+   }
+ 
+ .back {
+     float: left;
+     color: aliceblue;
+     padding: 1%;
+     font-size: 18px;
+ }
+ 
+ .header-ios ion-toolbar:last-of-type {
+     --border-width: 0 0 0. 0px;
+     border-bottom-left-radius: 21px;
+     border-bottom-right-radius: 21px;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     background-color: #2cae70;
+ }
+
+  /** Body / Card Style **/
+
+ ion-card {
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #eeeeee;
+    border-top-left-radius: 0px;
+}
+
+h2 {
+    color: #2cae70;
+    font-size: 22px;
+    font-weight: 600;
+
+}
+
+/** button Style **/
+
+.add-card {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}

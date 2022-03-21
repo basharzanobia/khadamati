@@ -1,0 +1,85 @@
+/** Header Style **/
+
+.ion-toolbar {
+    border: none;
+ }
+ 
+ .n-head {
+     display: flex;
+     align-items: center;
+ }
+ 
+ 
+ ion-menu-button{
+     --color:white !important;
+      color:white !important;
+      font-size: 50px;
+   }
+ 
+ .logo-head {
+     float: left;
+     width: 50px;
+    
+ }
+ 
+ ion-header {
+     background-color: #2ab77d;
+     border-bottom-left-radius: 21px;
+     border-bottom-right-radius: 21px;
+     padding-top: 2%;
+     padding-bottom: 2%;
+     backdrop-filter: noneImportant;
+ }
+ 
+ .header-background {
+ 
+     backdrop-filter: drop-shadow(2px 2px 6px black);
+  }
+
+  .header-md::after {
+
+    background-image: none!important;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+
+  /** Body / Card Style **/
+
+ ion-card {
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #eeeeee;
+    border-top-left-radius: 0px;
+}
+
+ /** service tab  Style **/
+
+ion-tab-bar {
+    border: none;
+    border-radius: 15px;
+}
+
+ion-tab-button {
+   
+    background-color: azure;
+    font-size: medium;
+    font-weight: 600;
+}
+
+ion-button {
+    color: white;
+    font-weight: 700;
+    margin-top: 5%;
+
+}
+
+/** service inner button Style **/
+.item-inner {
+    border: none;
+}
+
+.procc-title {
+    text-align: center;
+}

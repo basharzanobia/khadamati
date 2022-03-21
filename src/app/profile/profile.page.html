@@ -1,0 +1,75 @@
+<ion-header >
+  <ion-toolbar color="secondry"> 
+    <ion-row class="n-head">
+    <ion-col size="2" >
+      <ion-buttons>  
+        <ion-menu-button></ion-menu-button>   
+      </ion-buttons>
+     
+    </ion-col>
+    <ion-col size="8" class="title-toolbar">
+      <ion-title> الملف الشخصي</ion-title> 
+    </ion-col>
+    <ion-col size="2">
+      <ion-icon name="arrow-forward" class="back" routerLink="/tabs" routerDirection="root"></ion-icon>
+    </ion-col>
+    </ion-row> 
+</ion-toolbar> 
+</ion-header>
+<!-- End Header  -->
+<ion-content>
+  <section class = "logos-container">
+    <div class="row logos">
+      <div class="col-2">
+      </div>
+      <div class="col-8 profile-img">
+        <img  class="profile-thumb" src="assets/Photo/logo-100.png" />
+        </div>
+      <div class="col-2">
+      </div>
+    </div>
+
+  <!-- Other Textual Information -->
+<!---  Form  -->
+<ion-row class="account-form">
+  <ion-col>
+    <ion-list lines="none">
+      <ion-item>
+        <ion-label slot="start"> 
+            الاسم الكامل 
+        </ion-label>
+        <ion-label slot="end"> 
+          <ion-icon  name="person" ></ion-icon>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label slot="start"> 
+         رقم الهاتف
+      </ion-label>
+        <ion-label slot="end">
+          <ion-icon name="phone-portrait-outline"></ion-icon>
+        </ion-label>
+      </ion-item>
+      <ion-item>
+        <ion-label slot="start"> 
+         كلمة السر
+      </ion-label>
+        <ion-label slot="end">
+          <ion-icon name="key-outline"></ion-icon>
+        </ion-label>
+      </ion-item>
+    </ion-list>
+        <!---  Edite button  -->
+        <ion-col size="12">
+          <ion-button expand="block"  class="continue-button" routerLink="/edite-profile" routerDirection="root">
+          تعديل المعلومات
+          </ion-button>
+        </ion-col>
+    
+        <!---  End Edite in button  -->
+  </ion-col>
+</ion-row>
+
+</section>
+<!--- End Form   -->
+</ion-content>

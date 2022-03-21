@@ -1,0 +1,85 @@
+
+/** Header Style **/
+.n-head {
+    display: flex;
+    align-items: center;
+}
+
+ ion-title {
+    color: white;
+}
+ 
+ .back {
+     float: left;
+     color: aliceblue;
+     padding: 1%;
+     font-size: 25px;
+ }
+ 
+  /** Menue Style **/
+  ion-menu-button{
+    --color:white !important;
+     color:white !important;
+     font-size: 50px;
+  }
+
+ion-header {
+    background-color: #2ab77d;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header-background {
+
+    backdrop-filter: drop-shadow(2px 2px 6px black);
+ }
+
+
+ .header-md::after {
+
+    background-image: none!important;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+
+  /** Body / Card Style **/
+
+ ion-card {
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #eeeeee;
+    border-top-left-radius: 0px;
+}
+
+/** Prosseccing Bar **/
+ .worker-statu {
+    color: #2cae70;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+ion-range{
+    --knob-background: #2cae70;
+  }
+
+
+  .call-now {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10%;
+}
+
+
+.cancel-service {
+
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 10%;
+
+}

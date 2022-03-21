@@ -1,0 +1,112 @@
+
+/*  Body */
+
+.ion-content {
+    padding: 6%;
+
+}
+
+ion-title {
+    color: white;
+}
+
+
+/*  Form  header Title */
+
+.logos {
+    text-align: center;
+    margin-top: 16%;
+}
+
+
+.tittle {
+    margin: 6%;
+}
+
+h1 {
+    color: green;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.ion-toolbar {
+    border: none;
+ }
+ 
+ 
+ 
+ 
+ .n-head {
+    display: flex;
+    align-items: center;
+}
+
+ ion-title {
+    color: white;
+}
+ 
+ .back {
+     float: left;
+     color: aliceblue;
+     padding: 1%;
+     font-size: 25px;
+ }
+ 
+  /** Menue Style **/
+  ion-menu-button{
+    --color:white !important;
+     color:white !important;
+     font-size: 50px;
+  }
+
+ion-header {
+    background-color: #2ab77d;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.header-background {
+
+    backdrop-filter: drop-shadow(2px 2px 6px black);
+ }
+
+ .header-md::after {
+
+    background-image: none!important;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+/*  Form  */
+.logos-container {
+    border: #ededed;
+    border-style: solid;
+    border-radius: 23px 1px 10px 20px;
+    margin: 6%;
+}
+
+ion-label {
+    color: green!important;
+}
+
+/*  Form Feild */ 
+.item-input {
+    padding-bottom: 6%;
+    padding-top: 6%;
+    font-size: 18px;
+}
+
+
+/*  Register Button  */
+.continue-button {
+    align-items: center;
+
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+

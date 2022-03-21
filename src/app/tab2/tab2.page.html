@@ -1,0 +1,82 @@
+<ion-header >
+  <ion-toolbar color="secondry"> 
+    <ion-row class="n-head">
+    <ion-col size="3" >
+      <ion-buttons>  
+        <ion-menu-button></ion-menu-button>   
+      </ion-buttons>
+     
+    </ion-col>
+    <ion-col size="6" class="search-toolbar">
+      <ion-searchbar animated></ion-searchbar>
+    </ion-col>
+    <ion-col size="3">
+      <img class="logo-head" src="assets/Photo/logo-white.png" />
+    </ion-col>
+    </ion-row> 
+      
+      
+   <!--Searchbar -->
+
+</ion-toolbar> 
+
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <!--Service Block -->
+  <section>
+  <ion-grid class="sevices">
+  <ion-row>
+    <ion-col size="6" >
+      <ion-card routerLink="/service" routerDirection="root">
+        <ion-card-content>
+          <ion-icon name="home" class="s-icon" ></ion-icon>
+          <ion-lable class="best-titlle"> التنظيف المنزلي المتكامل</ion-lable>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6">
+      <ion-card routerLink="/service" routerDirection="root" >
+        <ion-card-content>
+          <ion-icon name="car-sport" class="s-icon"></ion-icon>
+          <ion-lable class="best-titlle"> غسيل السيارات</ion-lable>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" >
+      <ion-card routerLink="/service" routerDirection="root">
+        <ion-card-content>
+          <ion-icon name="nuclear" class="s-icon"></ion-icon>
+          <ion-lable class="best-titlle"> التنظيف والتعقيم </ion-lable>
+        </ion-card-content>
+      </ion-card>
+  </ion-col>
+  <ion-col size="6">
+    <ion-card routerLink="/service" routerDirection="root">
+      <ion-card-content>
+        <ion-icon name="map" class="s-icon"></ion-icon>
+        <ion-lable class="best-titlle"> غسيل السجاد والموكيت</ion-lable>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  <ion-col size="6" >
+    <ion-card routerLink="/service" routerDirection="root">
+      <ion-card-content>
+        <ion-icon name="shirt"class="s-icon"></ion-icon>
+        <ion-lable class="best-titlle"> المصبغة </ion-lable>
+      </ion-card-content>
+    </ion-card>
+</ion-col>
+<ion-col size="6">
+  <ion-card routerLink="/service" routerDirection="root" >
+    <ion-card-content>
+      <ion-icon name="restaurant" class="s-icon"></ion-icon>
+      <ion-lable class="best-titlle"> الادوات </ion-lable>
+    </ion-card-content>
+  </ion-card>
+</ion-col>
+  </ion-row>
+</ion-grid>
+</section>
+<!-- End Service Block -->
+</ion-content>

@@ -1,0 +1,146 @@
+
+
+
+.ion-toolbar {
+   border: none;
+   border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+.n-head {
+    display: flex;
+    align-items: center;
+    
+}
+
+
+ion-menu-button{
+    --color:white !important;
+     color:white !important;
+     font-size: 50px;
+  }
+
+.logo-head {
+    float: left;
+    width: 50px;
+   
+}
+
+
+ion-header {
+    background-color: #2ab77d;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    backdrop-filter: noneImportant;
+}
+
+.header-background {
+
+    backdrop-filter: drop-shadow(2px 2px 6px black);
+ }
+
+
+ .header-md::after {
+
+    background-image: none!important;
+    border-bottom-left-radius: 21px;
+    border-bottom-right-radius: 21px;
+}
+
+
+.ban-top {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);  
+}
+.serv-icon {
+    font-size: 45px;
+    color: #2ab77d;
+    border-radius: 50%;
+    padding: 25%;
+    margin: 0%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card-content-md {
+
+    display: grid;
+    justify-content: center;
+}
+
+.photo-slide {
+    width: fit-content;
+    border-radius: 50%;
+    width: 70px;
+    padding: 3%;
+    margin: 3%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.carousel-control-prev {
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+a:link {
+    
+    text-decoration: none;
+  }
+
+.sr-only{
+    margin-top: 20px;
+}
+
+.toolbar-container {
+    padding-left: unset;
+    padding-right: unset;
+    padding-inline-start: var(--padding-start);
+    padding-inline-end: var(--padding-end);
+    background: #2ab77d;
+    padding-bottom: 10%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.section-title {
+    text-align: center;
+    font-weight: 700;
+    text-decoration: underline;
+    color: #1D617A;
+}
+
+
+
+
+
+.best-serv {
+
+    text-align: center;
+}
+
+.serv-card {
+    border-radius: 50%;
+}
+
+.best-titlle {
+    margin-top: 5%;
+    font-size: 12px;
+    font-weight: 600;
+    color: #2ab77d;
+
+}
+
+
+ion-button {
+    --background: #1D617A;
+    color: #f1f1f1;
+    }
+
+
+   
+
+

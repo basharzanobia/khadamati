@@ -1,0 +1,219 @@
+
+<ion-header >
+  <ion-toolbar color="secondry"> 
+    <ion-row class="n-head">
+    <ion-col size="3" >
+      <ion-buttons>  
+        <ion-menu-button></ion-menu-button>   
+      </ion-buttons>
+     
+    </ion-col>
+    <ion-col size="6" class="search-toolbar">
+      <ion-searchbar animated></ion-searchbar>
+    </ion-col>
+    <ion-col size="3">
+      <img class="logo-head" src="assets/Photo/logo-white.png" />
+    </ion-col>
+    </ion-row> 
+      
+      
+   <!--Searchbar -->
+
+</ion-toolbar> 
+
+</ion-header>
+<ion-content [fullscreen]="true" class="ion-padding">
+<!--- Top Banner -->
+
+<ion-row>
+  <ion-col size="12"> 
+  <ion-slides paginationType="bullets" slidesPerView="1" pager="true" class="ban-top">
+    <ion-slide>
+      <img src="assets/Photo/banner-top1.jpg" />
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/Photo/banner-top1.jpg" />
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/Photo/banner-top1.jpg" />
+    </ion-slide>
+  </ion-slides>
+  </ion-col>
+  </ion-row>
+
+
+<!--- Services -->
+<section >
+  <h1 class="section-title">خدماتنا  </h1>
+  <ion-slides >
+    <dive class="service-caro">
+      <ion-slide>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        
+
+      </ion-slide>
+    </dive>
+        
+  </ion-slides>
+  
+</section>
+<!--- End Services -->
+<!--- Most Order -->
+
+<ion-grid class="Most-Order">
+  <h1 class="section-title"> الاكثر طلبا</h1>
+  <ion-row>
+    <ion-col size="6" class="best-serv" >
+      <ion-card routerLink="/service" routerDirection="root">
+        <ion-card-content>
+            <img class="photo-card" src="assets/Photo/clean.png" />
+          <ion-lable class="best-titlle"> التنظيف المنزلي </ion-lable>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6" class="best-serv">
+      <ion-card routerLink="/service" routerDirection="root" >
+        <ion-card-content>
+            <img class="photo-card" src="assets/Photo/carpett.png" />
+          <ion-lable class="best-titlle"> غسيل السجاد</ion-lable>
+        </ion-card-content>
+      </ion-card>
+    </ion-col>
+    <ion-col size="6"  class="best-serv">
+      <ion-card routerLink="/service" routerDirection="root">
+        <ion-card-content>
+          <img class="photo-card" src="assets/Photo/car.png" />
+        <ion-lable class="best-titlle"> غسيل السيارات</ion-lable>
+        </ion-card-content>
+      </ion-card>
+  </ion-col>
+  <ion-col size="6" class="best-serv">
+    <ion-card routerLink="/service" routerDirection="root">
+      <ion-card-content>
+        <img class="photo-card" src="assets/Photo/carpett.png" />
+        <ion-lable class="best-titlle"> غسيل الموكيت</ion-lable>
+      </ion-card-content>
+    </ion-card>
+  </ion-col>
+  </ion-row>
+</ion-grid>
+<!--- End Most Order -->
+ <!--- Banner-->
+<section class="banner">
+  <h1 class="section-title"> عرض الاسبوع </h1>
+<div class="slide-prev" (click)="slidePrev()">
+  <!--- slider control-->
+</div>
+<div class="slide-next" (click)="slideNext()">
+ <!--- slider control-->
+</div>
+
+
+<ion-row>
+  <ion-col size="12"> 
+  <ion-slides paginationType="bullets" slidesPerView="1" pager="true" class="ban-top">
+    <ion-slide>
+      <img src="assets/Photo/banner-top.jpg" />
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/Photo/banner-top.jpg" />
+    </ion-slide>
+    <ion-slide>
+      <img src="assets/Photo/banner-top.jpg" />
+    </ion-slide>
+  </ion-slides>
+  </ion-col>
+  </ion-row>
+</section>
+ <!--- End Banner -->
+
+  <!--- Ralated Service -->
+<section class="Ralated">
+  <h1 class="section-title"> استكشف </h1>
+  <ion-slides >
+    <dive class="service-caro">
+      <ion-slide>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <ion-icon name="home-outline" class="serv-icon"></ion-icon>
+          <span class="sr-only">التنظيف المنزلي</span>
+        </a>
+        
+
+      </ion-slide>
+    </dive>
+        
+  </ion-slides>
+</section>
+
+<!--- End Ralated Service -->
+
+
+<!--- Custom Service -->
+  <ion-button  expand="block" >
+    <ion-icon name="add-circle-outline" slot="end"></ion-icon>
+    <ion-lable class="call-now" >   اطلب خدمة خاصة</ion-lable>
+  
+  </ion-button>
+
+
+<!--- End Custom Service -->
+ 
+
+  
+  
+  
+  
+</ion-content>

@@ -1,0 +1,103 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="secondry"> 
+    <ion-title>اضافة طريقة دفع </ion-title> 
+    <ion-icon name="arrow-forward" class="back"></ion-icon>
+    <ion-buttons slot="start">  
+      <ion-menu-button></ion-menu-button>   
+    </ion-buttons> 
+</ion-toolbar> 
+</ion-header>
+<!-- End Header-->
+
+<!-- Body -->
+<ion-content >
+<!-- payments mothed -->
+  <section class="add-card">
+    <ion-card>
+       <ion-card-content>
+        <ion-list>
+          <ion-radio-group value="biff">
+            <ion-list-header>
+              <h2 class="procc-title"> اختر طريقة الدفع</h2>
+            </ion-list-header>
+        
+            <ion-item>
+              <ion-label> بطاقة ائتمان</ion-label>
+              <ion-radio slot="start" value="biff"></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>بيبال </ion-label>
+              <ion-radio slot="start" value="griff"></ion-radio>
+            </ion-item>
+        
+            <ion-item>
+              <ion-label>نقداَ</ion-label>
+              <ion-radio slot="start" value="buford"></ion-radio>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+    </ion-card-content>
+<!--  End payments mothed -->
+
+<!-- Card Info -->
+   <ion-row>
+    <ion-col size="12">
+      <h2 class="procc-title"> المعلومات والتفاصيل</h2>
+         <ion-list lines="none">
+            <ion-item >
+                <ion-lable class="booking-date">اسم حامل الكرت </ion-lable>
+            </ion-item>
+            <ion-item >
+                <ion-input type="text" placeholder="الاسم في البطاقة"></ion-input>
+            </ion-item>
+            <ion-item >
+                <ion-lable class="booking-time"> رقم الكرت </ion-lable>
+            </ion-item>
+            <ion-item >
+                <ion-input type="number" placeholder="0000000000"></ion-input>
+            </ion-item>
+         </ion-list>
+    </ion-col>
+     <ion-col size="6">
+         <ion-list lines="none">
+            <ion-item >
+                <ion-lable class="booking-date"> تاريخ الانتهاء </ion-lable>
+            </ion-item>
+            <ion-item >
+                <ion-input type="date" placeholder="الاسم في البطاقة"></ion-input>
+             </ion-item>
+         </ion-list>
+    </ion-col>
+    <ion-col size="6">
+      <ion-list lines="none">
+        <ion-item >
+          <ion-lable class="booking-time"> الرمز CCV </ion-lable>
+        </ion-item>
+        <ion-item >
+          <ion-input type="number" placeholder="000"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-col>
+      <ion-col size="12">
+        <ion-button  expand="block" class="add-card" >
+          اضافة كارت
+        </ion-button>
+      </ion-col>
+   </ion-row>
+
+   <!--End  Card Info -->
+  </ion-card>
+  
+           <!-- Book Detile-->
+  
+
+    
+   
+  
+  </section>
+
+  
+
+
+</ion-content>
